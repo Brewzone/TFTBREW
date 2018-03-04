@@ -23,7 +23,7 @@ The controller is split into 3 main displays:
 
 All the useful settings can be modified via the touch screen on the Arduino TFT LCD.
 
-My system uses a Raspberry Pi3 for data logging and for storing the various sketched opening the system up for many more projects.
+My system uses a Raspberry Pi3 for data logging and for storing the various sketches opening the system up for many more projects.
 
 An oscilliscope being the next project I have in mind.
 
