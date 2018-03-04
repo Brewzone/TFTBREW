@@ -337,7 +337,7 @@ buzz(buzzerPin, NOTE_C7, 300,3);
   
 TCCR5B |= (1 << CS51);    //start timer5 with prescaler=8
 TIMSK5 = (1 << TOIE5);    //enable timer overflow interrupt for Timer5  
-TCNT5 = 60535;            //set counter to 45535, 5000 clicks will be 2.5 ms
+TCNT5 = 60535;            //set counter to 60535, 5000 clicks will be 2.5 ms
          
 }
 
