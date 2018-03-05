@@ -11,10 +11,10 @@
 #include <SPI.h>
 #include <EEPROM.h>
 #include <elapsedMillis.h>
-#include <Adafruit_MAX31865.h>
+#include <Adafruit_MAX31865.h> // https://joshuawoehlke.com/daisy-chaining-spi-arduino-mega-2560/
 #include <avr/wdt.h>
 #include <Adafruit_GFX.h> // Hardware-specific library
 //#include <ILI9488_kbv.h>
 //#include <TimerFive.h>
-//#include <SD.h>
+//#include <SD.h> // https://joshuawoehlke.com/daisy-chaining-spi-arduino-mega-2560/
 //#include <AltSoftSerial.h>
