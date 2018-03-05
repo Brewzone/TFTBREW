@@ -70,6 +70,8 @@ unsigned int interval = 60000; // 1 minute interval
 
 int ElapsedMin = 0;
 
+int ElapsedMin = 0;
+
 long time_frame = 0;
 
 long loop_count = 0;
