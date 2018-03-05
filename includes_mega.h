@@ -5,7 +5,8 @@
 
 #include <PID_v1.h>
 #include <PID_AutoTune_v0.h>
-#include <MCUFRIEND_kbv.h>
+#include <MCUFRIEND_kbv.h> // changed this line to to 0x3A, 1, 0x55,      //Interlace Pixel Format [XX]
+// Due to incorrect colour scheme using 0x3A, 1, 0x66,      //Interlace Pixel Format [XX]
 #include <TouchScreen.h>
 #include <SPI.h>
 #include <EEPROM.h>
