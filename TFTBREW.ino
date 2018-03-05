@@ -67,13 +67,9 @@ int IntKettleSensor;
 elapsedMillis timeElapsed; //declare global if you don't want it reset every time loop runs
 
 unsigned int interval = 60000; // 1 minute interval
-
 int ElapsedMin = 0;
-
-int ElapsedMin = 0;
-
+int mins = 0;
 long time_frame = 0;
-
 long loop_count = 0;
 
 //EEPROM
@@ -109,6 +105,7 @@ float mxf1 = -20.0;
 //==========================================================================================//
 // Set up values to virtualize a given vessels heating and cooling characteristics          //
 // Makes finding Kp Ki Kd settings much easier as can be done from comfort of Your armchair //
+// http://jansson.us/MashPhysics.html
 //==========================================================================================//
 
 double starttemp;
