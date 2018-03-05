@@ -7,9 +7,9 @@ Each relied on a 20 by 2 LCD display which I found limiting compared to the more
 
 Another benefit being the lack of bounce that the tactile buttons tend to suffer from on the 20 by 2 LCD variants.
 
-So I set about putting together the system I would like Myself for use on Brewday or cooking a steak.
+So I set about putting together the system I would like Myself for use on Brewday or when cooking a steak.
 
-There has been a major rework of the code for the Sous Vide and Ebrew systems.
+There has been a major rework of the code from the Sous Vide and e.Brew systems.
 
 I think the screen layout is user friendly and as I think of improvements I will provide them as quickly as possible,
 
@@ -26,5 +26,13 @@ All the useful settings can be modified via the touch screen on the Arduino TFT 
 My system uses a Raspberry Pi3 for data logging and for storing the various sketches opening the system up for many more projects.
 
 An oscilliscope being the next project I have in mind.
+
+The Output relay on pin 43 has been used for time proportional control with a 1 second window operating at 400hz which is controlled by 16 bit timer 5.
+
+The original code uses 8 bit timer 2.
+
+There are 6 timed stages available for example 50C for 15 mins then 66C for 90 mins followed by mashout at 68C for 10 mins with the remaining timed stages for hop additions and the boil.
+
+Let Me know what You think at brewzone@hotmail.co.uk
 
  
