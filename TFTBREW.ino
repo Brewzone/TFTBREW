@@ -348,7 +348,7 @@ TCNT5 = 60535;            //set counter to 60535, 5000 clicks will be 2.5 ms
 SIGNAL(TIMER5_OVF_vect) 
 {
 
-// Reset the timer5 count for 10ms
+// Reset the timer5 count for 2.5ms
 TCNT5 = 60535;
     
 if (opState == OFF) {digitalWrite(Relaypin, LOW);} // make sure relay is off
