@@ -5,7 +5,7 @@ I tried one or two variants of the PID controlled Sous Vide and Beer Brewing Ard
 
 Each relied on a 16 by 2 LCD display which I found limiting compared to the more visually friendly LCD TFT touch screen displays available for under £10.
 
-Another benefit being the lack of bounce that the tactile buttons tend to suffer from on the 20 by 2 LCD variants.
+Another benefit being the lack of bounce that the tactile buttons tend to suffer from on the 16 by 2 LCD variants.
 
 So I set about putting together the system I would like Myself for use on Brewday or when cooking a steak.
 
